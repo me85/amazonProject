@@ -6,14 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon.com Wilson NFL</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      <!-- Use any element to open the sidenav -->
+
+      <div class="navbar">
+        <a href="#"
+          ><i class="logo"></i>
+          <img class="logo" src="/assets/img_trans.gif" width="1" height="1" />
+        </a>
+        <img src="/assets/img_trans.gif" width="1" height="1" />
+        <a id="aDeliver" href="#"
+          ><i> </i> Deliver to <br />
+          israel
+          <img class="deliver" src="/assets/img_trans.gif" width="1" height="1" />
+        </a>
+        <div class="navleft">
+          <select class="custom-select">
+            <option value="0">All</option>
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Citroen</option>
+            <option value="4">Ford</option>
+            <option value="5">Honda</option>
+            <option value="6">Jaguar</option>
+            <option value="7">Land Rover</option>
+            <option value="8">Mercedes</option>
+            <option value="9">Mini</option>
+            <option value="10">Nissan</option>
+            <option value="11">Toyota</option>
+            <option value="12">Volvo</option>
+          </select>
+        </div>
+        <div class="navSearch">
+          <input type="text" placeholder="Search.." />
+        </div>
+        <div class="nav-search-submit">
+          <img class="iconsearch" src="/assets/img_trans.gif" width="1" height="1" />
+
+          <span id="nav-search-submit-text">
+            <input id="nav-search-submit-button" type="submit" value="" />
+          </span>
+        </div>
+
+        <a id="navFlag" href="#"
+          ><i>
+            <img class="flag" src="/assets/img_trans.gif" width="1" height="1" />
+          </i>
+        </a>
+        <a id="navAccount" href="#"> Hello,sign in <br />Account & List</a>
+        <a href="#"> </a>
+        <a id="navReturns" href="#"> Returns <br />&Orders</a>
+        <a id="aCart" href="#"
+          ><i class="cart"> </i>
+          <img class="cart" src="/assets/img_trans.gif" width="1" height="1" />
+          Cart</a
+        >
+      </div>
+      <div class="subNav">
+        <!-- <div class="btnOffcanvas"></div> -->
+        <div class="sub-nav-alist">
+          <img
+            class="openbtn"
+            src="/assets/img_trans.gif"
+            width="1"
+            height="1"
+            onclick="openNav()"
+          />
+
+          <a href="#">Todays Deals</a>
+          <a href="#">Customer Service</a>
+          <a href="#">Registery</a>
+          <a href="#">Gift Cards</a>
+          <a href="#">sell</a>
+          <a href="#">Local Delivery in israel</a>
+        </div>
+        <div class="rightSubMenueBar">
+          <a href="#">Shop Cyber Monday deals</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="mainContiner">
+        <div class="smallImagelist">
+          <ul>
+            <li>
+              <img src="images/thumbs/1.jpg" alt="img01" />
+            </li>
+            <li>
+              <img src="images/thumbs/1.jpg" alt="img01" />
+            </li>
+            <li>
+              <img src="images/thumbs/1.jpg" alt="img01" />
+            </li>
+            <li>
+              <img src="images/thumbs/1.jpg" alt="img01" />
+            </li>
+            <li>
+              <img src="images/thumbs/1.jpg" alt="img01" />
+            </li>
+          </ul>
+        </div>
+        <div class="mainBigFoto">2</div>
+        <div class="mainProductText">3</div>
+        <div class="mainSideBar">4</div>
+      </div>
+    </main>
+
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
